@@ -1,0 +1,5 @@
+run("Subtract Background...", "rolling=1 create");
+run("Subtract Background...", "rolling=1 light");
+run("Make Binary");
+run("Analyze Particles...", "size=50-Infinity circularity=0.00-1.00 show=Nothing summarize");
+run("Open Next");
